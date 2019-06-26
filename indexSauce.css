@@ -1,0 +1,35 @@
+
+body{
+  width: 100%;
+  background-color:black;
+  display: -webkit-box;
+  -webkit-box-pack: left;
+}
+#links>a{
+  font-family: 'Courier', 'Arial', sans-serif;
+  font-size:200%;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+#links a{
+  display: block;
+  -webkit-transition: -webkit-transform 500ms;
+}
+#links>#bwlns{
+    color: rgb(255, 255, 255);
+}
+#links>#bwlns{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size:300%;
+ 
+}
+#links>:not(#bwlns):hover{
+   color:rgb(247, 247, 247);
+   -webkit-transform: translateX(7%);
+}
+#links>#bwlns:hover{
+   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+}
+
+
